@@ -4,13 +4,21 @@ import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from './components/footer/footer.component';
 import {WelcomeComponent} from './components/welcome/welcome.component';
 import {MainArticleComponent} from './components/main-article/main-article.component';
+import {LatestNewsComponent} from './components/latest-news/latest-news.component'
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.scss',
-    imports: [RouterOutlet, HeaderComponent, FooterComponent, WelcomeComponent, MainArticleComponent]
+    imports: [
+      RouterOutlet, 
+      HeaderComponent, 
+      FooterComponent, 
+      WelcomeComponent, 
+      MainArticleComponent,
+      LatestNewsComponent
+    ]
 })
 export class AppComponent {
   title = 'newsy';
