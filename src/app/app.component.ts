@@ -4,7 +4,9 @@ import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from './components/footer/footer.component';
 import {WelcomeComponent} from './components/welcome/welcome.component';
 import {MainArticleComponent} from './components/main-article/main-article.component';
-import {LatestNewsComponent} from './components/latest-news/latest-news.component'
+import {LatestNewsComponent} from './components/latest-news/latest-news.component';
+import {NewsyStoryComponent} from './components/newsy-story/newsy-story.component';
+import {MustReadComponent} from './components/must-read/must-read.component'
 
 @Component({
     selector: 'app-root',
@@ -17,7 +19,9 @@ import {LatestNewsComponent} from './components/latest-news/latest-news.componen
       FooterComponent, 
       WelcomeComponent, 
       MainArticleComponent,
-      LatestNewsComponent
+      LatestNewsComponent,
+      NewsyStoryComponent,
+      MustReadComponent
     ]
 })
 export class AppComponent {
