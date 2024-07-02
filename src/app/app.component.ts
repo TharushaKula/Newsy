@@ -6,7 +6,8 @@ import {WelcomeComponent} from './components/welcome/welcome.component';
 import {MainArticleComponent} from './components/main-article/main-article.component';
 import {LatestNewsComponent} from './components/latest-news/latest-news.component';
 import {NewsyStoryComponent} from './components/newsy-story/newsy-story.component';
-import {MustReadComponent} from './components/must-read/must-read.component'
+import {MustReadComponent} from './components/must-read/must-read.component';
+import {EditorsPickComponent} from './components/editors-pick/editors-pick.component'
 
 @Component({
     selector: 'app-root',
@@ -21,7 +22,8 @@ import {MustReadComponent} from './components/must-read/must-read.component'
       MainArticleComponent,
       LatestNewsComponent,
       NewsyStoryComponent,
-      MustReadComponent
+      MustReadComponent,
+      EditorsPickComponent
     ]
 })
 export class AppComponent {
