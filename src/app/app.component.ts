@@ -9,7 +9,9 @@ import {NewsyStoryComponent} from './components/newsy-story/newsy-story.componen
 import {MustReadComponent} from './components/must-read/must-read.component';
 import {EditorsPickComponent} from './components/editors-pick/editors-pick.component';
 import {CategoriesBlockComponent} from './components/categories-block/categories-block.component';
-import {TopCreatorComponent} from './components/top-creator/top-creator.component'
+import {TopCreatorComponent} from './components/top-creator/top-creator.component';
+import {EmailSectionComponent} from './components/email-section/email-section.component';
+import {HomeComponent} from './pages/home/home.component'
 
 @Component({
     selector: 'app-root',
@@ -27,7 +29,9 @@ import {TopCreatorComponent} from './components/top-creator/top-creator.componen
       MustReadComponent,
       EditorsPickComponent,
       CategoriesBlockComponent,
-      TopCreatorComponent
+      TopCreatorComponent,
+      EmailSectionComponent,
+      HomeComponent
     ]
 })
 export class AppComponent {
