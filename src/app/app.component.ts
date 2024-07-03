@@ -7,7 +7,8 @@ import {MainArticleComponent} from './components/main-article/main-article.compo
 import {LatestNewsComponent} from './components/latest-news/latest-news.component';
 import {NewsyStoryComponent} from './components/newsy-story/newsy-story.component';
 import {MustReadComponent} from './components/must-read/must-read.component';
-import {EditorsPickComponent} from './components/editors-pick/editors-pick.component'
+import {EditorsPickComponent} from './components/editors-pick/editors-pick.component';
+import {CategoriesBlockComponent} from './components/categories-block/categories-block.component'
 
 @Component({
     selector: 'app-root',
@@ -23,7 +24,8 @@ import {EditorsPickComponent} from './components/editors-pick/editors-pick.compo
       LatestNewsComponent,
       NewsyStoryComponent,
       MustReadComponent,
-      EditorsPickComponent
+      EditorsPickComponent,
+      CategoriesBlockComponent
     ]
 })
 export class AppComponent {
